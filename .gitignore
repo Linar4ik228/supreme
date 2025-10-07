@@ -1,0 +1,71 @@
+# === Build outputs ===
+build/
+bin/
+dist/
+Release/
+Debug/
+x64/
+x86/
+*.obj
+*.o
+*.lib
+*.dll
+*.so
+*.exe
+*.out
+*.pdb
+
+# === Temporary ===
+*.log
+*.tmp
+*.bak
+*.cache
+
+# === IDE configs ===
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# === Python (если используешь RLGym или RLBot-Python части) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+.venv/
+env/
+*.egg-info/
+logs/
+
+# === Model / Weights (нейросети GigaLearnCPP) ===
+*.pt
+*.onnx
+*.pth
+*.bin
+*.weights
+*.model
+
+# === System ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === RLBot / Config ===
+rlbot.cfg
+appearance.cfg
+*.replay
+*.cfg.backup
+
+# === Optional: временные RLGymCPP datasets ===
+episodes/
+checkpoints/
+tensorboard/
